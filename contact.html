@@ -1,0 +1,229 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact Us | Fitness Hub</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(135deg, #11998e, #38ef7d);
+      color: #fff;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    header {
+      background: rgba(0, 0, 0, 0.8);
+      padding: 15px 0;
+      text-align: center;
+    }
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      margin: 0 20px;
+      font-weight: 600;
+      font-size: 18px;
+      transition: 0.3s;
+    }
+
+    nav a:hover {
+      color: #38ef7d;
+    }
+
+    h1 {
+      text-align: center;
+      margin: 40px 0 10px;
+      font-size: 2.5rem;
+      letter-spacing: 1px;
+    }
+
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      gap: 40px;
+      padding: 40px;
+      max-width: 1100px;
+      margin: 0 auto;
+    }
+
+    .contact-info {
+      flex: 1 1 400px;
+      background: rgba(255, 255, 255, 0.15);
+      border-radius: 20px;
+      padding: 30px;
+      text-align: center;
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+      backdrop-filter: blur(10px);
+    }
+
+    .profile-pic {
+      width: 140px;
+      height: 140px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 15px;
+      border: 3px solid #fff;
+    }
+
+    .contact-info h2 {
+      color: #000;
+      margin-bottom: 20px;
+      background-color: #fff;
+      display: inline-block;
+      padding: 5px 15px;
+      border-radius: 10px;
+    }
+
+    .info-item {
+      background: rgba(255, 255, 255, 0.1);
+      margin: 10px 0;
+      padding: 12px;
+      border-radius: 10px;
+      font-size: 18px;
+      color: #000; /* black text */
+    }
+
+    .info-item span {
+      color: #000;
+      font-weight: bold;
+    }
+
+    /* Make all links black and remove underline */
+    .info-item a {
+      color: #000;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .info-item a:hover {
+      color: #333;
+      text-decoration: none;
+    }
+
+    .contact-form {
+      flex: 1 1 400px;
+      background: rgba(255, 255, 255, 0.15);
+      border-radius: 20px;
+      padding: 30px;
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+      backdrop-filter: blur(10px);
+    }
+
+    .contact-form h2 {
+      text-align: center;
+      margin-bottom: 20px;
+      color: #000;
+      background-color: #fff;
+      display: inline-block;
+      padding: 5px 15px;
+      border-radius: 10px;
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+    }
+
+    input, textarea {
+      padding: 12px;
+      border: none;
+      border-radius: 10px;
+      font-size: 16px;
+      outline: none;
+      resize: none;
+      color: #000;
+    }
+
+    input:focus, textarea:focus {
+      border: 2px solid #38ef7d;
+    }
+
+    button {
+      padding: 12px;
+      border: none;
+      background: #000;
+      color: #fff;
+      font-size: 18px;
+      font-weight: bold;
+      border-radius: 10px;
+      transition: 0.3s;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background: #38ef7d;
+      color: #000;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: rgba(0, 0, 0, 0.8);
+      color: #fff;
+      margin-top: auto;
+    }
+
+    @media (max-width: 768px) {
+      .container {
+        flex-direction: column;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="home screen.html">Home</a>
+      <a href="exercise.html">Exercises</a>
+      <a href="diet plan.html">Diet Plan</a>
+      <a href="health tips.html">Health Tips</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <h1>Contact Us</h1>
+
+  <div class="container">
+    <!-- Rasham's Info -->
+    <div class="contact-info">
+      
+      <h2>Get in Touch with Rasham</h2>
+
+      <div class="info-item"><span>Name:</span> Rasham Hussain</div>
+      <div class="info-item"><span>Email:</span> <a href="mailto:rashamhussaai11@mail.com">rashamhussaai11@mail.com</a></div>
+      <div class="info-item"><span>Contact No:</span> <a href="tel:03554623432">03554623432</a></div>
+      <div class="info-item"><span>WhatsApp:</span> <a href="https://wa.me/03554224432" target="_blank">03554623432</a></div>
+      <div class="info-item"><span>Location:</span> Near KIU</div>
+    </div>
+
+    <!-- User Form -->
+    <div class="contact-form">
+      <h2>Send a Message</h2>
+      <form action="#" method="post">
+        <input type="text" name="name" placeholder="Your Name" required />
+        <input type="email" name="email" placeholder="Your Email" required />
+        <input type="tel" name="phone" placeholder="Your Contact Number" />
+        <textarea name="message" rows="5" placeholder="Your Message..." required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </div>
+  </div>
+
+  <footer>
+    <p>© 2025 Fitness Hub | Designed by Rasham 💪</p>
+  </footer>
+</body>
+</html>
