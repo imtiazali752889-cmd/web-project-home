@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fitness Tips | Diet Plan</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(to right, #11998e, #38ef7d);
+      color: #fff;
+    }
+
+    header {
+      background: rgba(0, 0, 0, 0.7);
+      padding: 15px 0;
+      text-align: center;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 20px;
+      font-weight: bold;
+      font-size: 18px;
+      transition: 0.3s;
+    }
+
+    nav a:hover {
+      color: #000;
+    }
+
+    h1 {
+      text-align: center;
+      margin: 30px 0;
+      font-size: 2.5rem;
+    }
+
+    .diet-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 25px;
+      padding: 40px;
+    }
+
+    .diet-card {
+      background: rgba(255, 255, 255, 0.2);
+      border-radius: 20px;
+      overflow: hidden;
+      text-align: center;
+      padding-bottom: 20px;
+      box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+      transition: transform 0.3s;
+    }
+
+    .diet-card:hover {
+      transform: scale(1.05);
+    }
+
+    .diet-card img {
+      width: 100%;
+      height: 220px;
+      object-fit: cover;
+    }
+
+    .diet-card h3 {
+      margin: 15px 0 5px;
+      color: #000;
+    }
+
+    .diet-card p {
+      padding: 0 15px;
+      font-size: 15px;
+      color: #fff;
+    }
+
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="home screen.html">Home</a>
+      <a href="exercise.html">Exercises</a>
+      <a href="diet-plan.html">Diet Plan</a>
+      <a href="Healthytips.html">Health Tips</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <h1>Healthy Diet Plans</h1>
+
+  <section class="diet-container">
+    <!-- Card 1 -->
+    <div class="diet-card">
+      <img src="Morning Breakfast.jpg" alt="Breakfast">
+      <h3>Morning Breakfast</h3>
+      <p>Start your day with oatmeal, fruits, and green tea to fuel your energy.</p>
+    </div>
+
+    <!-- Card 2 -->
+    <div class="diet-card">
+      <img src="nutritiou lunch.jpg" alt="Lunch">
+      <h3>Nutritious Lunch</h3>
+      <p>Include lean protein, vegetables, and whole grains for balanced nutrition.</p>
+    </div>
+
+    <!-- Card 3 -->
+    <div class="diet-card">
+      <img src="light dinner.jpg" alt="Dinner">
+      <h3>Light Dinner</h3>
+      <p>End your day with a light meal — soup, salad, and a small portion of carbs.</p>
+    </div>
+  </section>
+</body>
+</html>
